@@ -24,9 +24,6 @@ class Server
    private:
    std::shared_ptr<TcpServer> m_server;
    //std::map<std::string,ClientSessionPtr> m_mapclient;
-
-
-
 };
 
 typedef std::pair<std::string,TcpConnectionPtr> ConnPair;
